@@ -1,4 +1,6 @@
-function playAudio(e) {
+console.log("divs", document);
+
+/*function playAudio(e) {
   const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
   const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
 
@@ -26,3 +28,4 @@ const keys = document.querySelectorAll(".key");
 keys.forEach((key) => {
   key.addEventListener("transitionend", removeTransition);
 });
+*/
